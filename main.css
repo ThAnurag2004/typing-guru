@@ -9,6 +9,10 @@ h1{
     font-family: sans-serif;
 }
 
+.mobile-heading{
+    display: none;
+}
+
 .keyboard{
     position: absolute;
     bottom: 10px;
@@ -56,4 +60,26 @@ h1{
 
 .key.active{
     background-color: red;
+}
+
+
+@media (max-width: 768px){
+    .main{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        display: none;
+    }
+
+    .keyboard{
+        display: none;
+    }
+
+    .mobile-heading{
+        display: block;
+    }
 }
