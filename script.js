@@ -66,6 +66,10 @@ window.addEventListener('keydown', (e) => {
       document.getElementById('accuracy').textContent = Math.round(accuracy);
       document.getElementById('wrong').textContent = wrong;
       document.querySelector('.keyboard').style.display = 'none';
+      const button = document.getElementById('refreshBtn')
+      button.addEventListener('click', ()=>{
+        location.reload(); //refreshing page
+      })
     }
 
   } else {

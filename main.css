@@ -110,7 +110,7 @@ h1{
 .result {
   position: absolute;
       width: 300px;
-      height: 150px;
+      height: auto;
       background: #fff;
       color: #000;
       padding: 10px;
@@ -127,4 +127,15 @@ h1{
 
 .result h2 {
   margin-top: 0;
+}
+
+.result button{
+    border-radius: 10px;
+    padding: 5px;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(49, 48, 48);
+    outline: none;
 }
